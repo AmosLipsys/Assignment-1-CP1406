@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+	background-color: #2B94AF;
+}
+.header {
+	width: 120%;
+	height: 110px;
+	border-bottom-width: medium;
+}
+
+.logo {
+	float: left;
+	background-color: #97D1F2;
+	width: 130px;
+	height: 130px;
+	padding-left: 12.5px;
+	padding-top: 12.5px;
+	border-bottom: 15px dashed #3A16C8;
+	border-right: thin groove #3A16C8;
+	border-left: thin groove #3A16C8;
+	margin-left: 150px;
+	border-top: thick ridge #3A16C8;
+	margin-top: -5px;
+	margin-right: 50px;
+}
+
+.logo a{
+	border-left-color: #2798B4;
+	border-right: thin solid #2798B4;
+	border-bottom: 15px dashed #2798B4;
+	border-top: medium groove #2798B4;
+	background-color: #90282A;
+	float: none;
+	padding-top: 15px;
+	overflow-x: hidden;
+}
+
+.navbar {
+	float: none;
+	border: medium solid #1171A8;
+	background-color: #97D1F2;
+	margin-left: -15px;
+	width: 110%;
+	height: 100px;
+}
+
+
+
+.navbar a{
+	padding-left: 35px;
+	padding-right: 35px;
+	border: thin hidden #15A0DB;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-color: #1D87A7;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-top: 10px;
+	overflow:hidden;
+	float: none;
+	display: table-cell;
+}
+	
+.navbar a:hover{
+	color: #251EC0;
+	background-color: #5EB4E5
+}
