@@ -2,6 +2,22 @@
 
 body {
 	background-color: #2B94AF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+a{
+	text-decoration:none
+}
+
+p a, footer a, h a{
+	text-decoration: underline;
+}
+
+
+
+body {
+	background-color: #2B94AF;
 }
 
 #logo {
@@ -25,17 +41,16 @@ body {
 	margin: 0px;
 	padding-left: 350px;
 	background-color: #12629B;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	font-size: medium;
-	min-width: 1150px;
+	min-width: 1000px;
 	border-top-right-radius: 50px;
 	z-index: 0;
-	max-width: 100%;
 	padding-right: 50px;
+	display: inline-block;
 }
 
-#header li {
+#header ul li {
+	float: left;
 	list-style: none;
 	display: inline;
 	color: #3A3333;
@@ -44,17 +59,18 @@ body {
 #header ul li a {
 	height: 20px;
 	margin-top: -1px;
-	margin-right: -1px;
-	margin-left: -1px;
 	margin-bottom: -1px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
 	color: #252424;
 	text-decoration: none;
-	font-size: 25px;
-}
+	margin-left: -1px;
+	margin-right: -1px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: small;
+	}
 
 #header ul li a:hover {
 	color: #333333;
@@ -68,7 +84,7 @@ body {
 
 #header ul ul {
 	display: none;
-	top: 80%;
+	top: 100%;
 	width: auto;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
@@ -84,26 +100,82 @@ body {
 	display: block;
 }
 
-#header ul li ul li:hover {
-	background-color: #AB1D20	
-
-}
-#header ul li {
-	float: left;
-}
-
-#header ul li a {
-	display: block;
-	padding-right: 40px;
-	padding-left: 40px;
-	color: #333333;
-	text-decoration: none;
-	min-width: 0px;
-	}
-
 #header ul ul li a:hover {
-	background: #4b545f;
+	background: #2B94AF;
+}
+#header ul ul li a:active {
+	color: #000000;
+	background-color: red;
 }
 
 
+.Title {
+	margin-top: 180px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bolder;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+ul li #register {
+	background-color: #3E53CB;
+}
 
+.button1 {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	cursor: pointer;
+	background-color: #3E53CB;
+	color: white;
+	border: 2px solid #3E53CB;
+	clear: none;
+	border-radius: 10px;
+	min-width: 300px;
+	max-width: 1000px;
+}
+a.button1{
+	text-decoration:none
+}
+
+.button1:hover {
+    background-color: white; 
+    color: black;
+}
+
+.button1:active {
+    background-color: #3E53CB; 
+    color: white;	
+	
+}
+footer {
+	margin-top: 100px;
+}
+h2 {
+	margin-top: 50px;
+	margin-bottom: -1px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #12629B;
+    color: white;
+}
